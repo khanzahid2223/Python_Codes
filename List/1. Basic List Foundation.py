@@ -51,5 +51,8 @@
 # print(Count)
 
 #11.check whether a list is empty
-lst=[]
-if lst==
+# lst=[]
+# if not lst:
+#     print("List is empty")
+# else:
+#     print("List is not empty")
