@@ -140,7 +140,21 @@
 #     print(f"Index={i}, Value={lst[i]}")
 
 #27.Print element in reverse order
-lst=[2,5,9,8,0,7]
-n=len(lst)
-for i in range(n-1,-1,-1):
-    print(lst[i])
+# lst=[2,5,9,8,0,7]
+# n=len(lst)
+# for i in range(n-1,-1,-1):
+#     print(lst[i])
+
+#28.print only elements greater than 50
+# lst=[45,90,67,65,78,43,32,12,34]
+# n=len(lst)
+# for i in range(0,n):
+#     if lst[i]>=50:
+#         print(lst[i])
+
+#29.Print only elements less than 50
+# lst=[90,87,32,12,4,50,43,78,8]
+# n=len(lst)
+# for i in range(0,n):
+#     if lst[i]<=50:
+#         print(lst[i])
