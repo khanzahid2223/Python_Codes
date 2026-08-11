@@ -56,3 +56,91 @@
 #     print("List is empty")
 # else:
 #     print("List is not empty")
+
+#12.Create a list of numbers from 1 to 10
+# lst=[]
+# for i in range(1,11):
+#     lst.append(i)
+# print(lst)
+
+#13.Create a list of even numbers from 1 to 20
+# lst=[]
+# for i in range(1,21):
+#     if i%2==0:
+#         lst.append(i)
+# print(lst)
+
+#14.Create a list of odd numbers from 1 to 20
+# lst=[]
+# for i in range(1,21):
+#     if i%2==1:
+#         lst.append(i)
+# print(lst)
+
+#15.Create a list containing squares of 1 to 10
+# lst=[]
+# for i in range(1,11):
+#     lst.append(i*i)
+# print(lst)
+
+#16.Create a list containing cubes of 1 to 10
+# lst=[]
+# for i in range(1,11):
+#     lst.append(i**3)
+# print(lst)
+
+#17.Access first element
+# lst=[90,98,45,32,67]
+# print(lst[0])
+
+#18.Access the last element
+# lst=[90,65,34,21,56]
+# print(lst[-1])
+
+#19.Access the third element
+# lst=[78,32,45,76,12,90,76]
+# print(lst[2])
+
+#20.Access the second last element
+# lst=[78,54,32,67,98,43,12]
+# print(lst[-2])
+
+#21.Change the first element
+# lst=[78,43,23,65,78,90]
+# lst[0]=90
+# print(lst)
+
+#22.Change the last element
+# lst=[78,54,33,21,89,90,0]
+# lst[-1]=89
+# print(lst)
+
+#23.Change the third element
+# lst=[78,54,33,21,89,90,0]
+# lst[2]=0
+# print(lst)
+
+#24.Change multuple elemnts simultaneously
+# lst=[89,54,32,46,78,98]
+# lst[0]=2
+# lst[2]=90
+# lst[-1]=21
+# print(lst)
+
+#25.Print evert element using list
+# lst=[9,10,15,17,19,22,3]
+# n=len(lst)
+# for i in range(0,n):
+#     print(lst[i])
+
+#26.Print every element with its index
+# lst=[9,22,10,5,8,7]
+# n=len(lst)
+# for i in range(0,n):
+#     print(f"Index={i}, Value={lst[i]}")
+
+#27.Print element in reverse order
+lst=[2,5,9,8,0,7]
+n=len(lst)
+for i in range(n-1,-1,-1):
+    print(lst[i])
