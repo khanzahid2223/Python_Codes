@@ -205,13 +205,13 @@
 #     if num%5==0:
 #         print(num)
 
-#141.Find all numbers divisible by both 3 and 5
+# 141.Find all numbers divisible by both 3 and 5
 # nums=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 # for num in nums:
 #     if num%3==0 and num%5==0:
 #         print(num)
 
-#142.Seperate odd and even numbers
+# 142.Seperate odd and even numbers
 # nums=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 # Even=[]
 # Odd=[]
@@ -222,7 +222,7 @@
 #         Odd.append(num)
 # print(f"Even={Even}\nOdd={Odd}")
 
-#143.Seperate positive and negative numbers
+# 143.Seperate positive and negative numbers
 # nums=[1,-2,3,4,-5,6,-7,8,9,-10,11,-12,13,-14,15]
 # Positive=[]
 # Negative=[]
@@ -239,17 +239,38 @@
 #     Square.append(i*i)
 # print(f"Square is ={Square} ")
 
-#145.Create a list of Cubes using a loop
+# 145.Create a list of Cubes using a loop
 # Cubes=[]
 # for i in range(1,11):
 #     Cubes.append(i**3)
 # print(f"Cubes is ={Cubes}")
 
-#146.Find duplicate elements
-nums=[10,20,50,10,20,10,50,20,40,60,80,70,90,10,20,50,43,90]
-duplicate=[]
-for num in nums:
-    if num not in duplicate:
-        duplicate.append(num)
-print(f"Orginal list={nums}")
-print(f"Duplicate list={duplicate}")
+# 146.Find duplicate elements
+# nums = [10, 20, 50, 10, 20, 10, 50, 20, 40, 60, 80, 70, 90, 10, 20, 50, 43, 90]
+# Seen = []
+# Duplicate = []
+# for num in nums:
+#     if num in Seen:
+#         if num not in Duplicate:
+#             Duplicate.append(num)
+#     else:
+#         Seen.append(num)
+# print(f"Orginal list={nums}")
+# print(f"Seen={Seen}")
+# print(f"Duplicate lsit={Duplicate}")
+
+# 147.Find the unique elements
+# nums = [10, 20, 50, 10, 20, 10, 50, 20, 40, 60, 80, 70, 90, 10, 20, 50, 43, 90]
+# Unique = []
+# Count=0
+# for num in nums:
+#     if nums.count(num)==1:
+#         Unique.append(num)
+# print(f"Uniquse Elements={Unique}")
+
+# 148.Reverse a list using a loop
+# Nums=[1,2,3,4,5,6,7,8,9]
+# n=len(Nums)
+# for i in range(n-1,-1,-1):
+#     print(Nums[i])
+
