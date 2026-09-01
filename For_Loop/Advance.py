@@ -30,14 +30,4 @@ elif Average>=35:
 else:
     print("Fail")
     
-#Super Mart
-print("***********************************")
-print("           ABC SUPERMART           ")
-print("***********************************")
-Customers=0
-Sales=0
-Highest_Bill=0
-Lowest_Bill=0
-Dis_Customers=0
-No_Dis_Customers=0
-print("1.New Customer\n2.Daily Report\n3.Exit")
+
