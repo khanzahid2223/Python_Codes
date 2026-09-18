@@ -22,7 +22,7 @@ print(Name.replace("Khan","Arosh"))
 A="Zahid Arosh"
 Result=""
 for ch in A:
-    if ch.lower() in "aeiouAEIOU":
+    if ch.lower() in "aeiou":
         Result+="*"
     else:
         Result+=ch

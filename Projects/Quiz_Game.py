@@ -32,4 +32,4 @@ else:
     print("Incorrect!")
 
 print(f"You have answered {Score} questions")
-print(f"You got {Score/4*100} %")
+print(f"You got:{Score/4*100} %")
