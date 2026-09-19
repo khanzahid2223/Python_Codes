@@ -25,8 +25,8 @@ print(ans)
 
 #Find the bottom 3 students based on the marks
 Marks={"AI":99,"DBMS":67,"ADA":35,"Python":91,"Java":54}
-ans=dict(sorted(Marks.items(),key=lambda x:x[1],reverse=True)[:-4:-1])
-print(ans)
+answer=dict(sorted(Marks.items(),key=lambda x:x[1],reverse=True)[:-4:-1])
+print(answer)
 
 #Sort prodect according to their price
 Prodect={"Mobile":15000,"Laptop":30000,"Tablet":12000,"Charger":250,"Headset":1000}
