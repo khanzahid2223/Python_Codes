@@ -61,5 +61,5 @@ tpl=(5,2,6,4,8,9,7,3)
 print(list(tpl))
 
 #15.create a tuple containing numbers from 1 to 10 range
-number=tuple(range(1,11))
-print(number)
+number1=tuple(range(1,11))
+print(number1)
