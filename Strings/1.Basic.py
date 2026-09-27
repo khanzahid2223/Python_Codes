@@ -85,9 +85,9 @@ for i in range(0,n):
         print(name[i])
 
 #20.Count the number of characters in a string without using len().
-Name="Zahid Khan"
+Names="Zahid Khan"
 Total=0
-for ch in Name:
+for ch in Names:
     Total+=1
 print(Total)
 
